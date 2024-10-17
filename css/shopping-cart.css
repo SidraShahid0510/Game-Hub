@@ -1,0 +1,1105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: poppins, roboto, sans-serif;
+  text-decoration: none;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #02050e;
+}
+
+/*nav starts here*/
+header {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  justify-content: space-between;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  right: 0;
+  background: #ec0000;
+  display: flex;
+  align-items: center;
+  padding: 20px 9%;
+}
+.logo img {
+  max-width: 90px;
+  height: auto;
+  padding-top: 8px;
+}
+
+#check {
+  display: none;
+}
+
+header label {
+  color: #ffffff;
+  font-size: 25px;
+  cursor: pointer;
+  display: none;
+}
+
+ul li {
+  display: inline-block;
+
+  margin: 0 18px;
+}
+
+ul li a {
+  position: relative;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 3px 0;
+}
+
+.nav-icon {
+  display: flex;
+  align-items: center;
+}
+.nav-icon i {
+  margin-left: 25px;
+  color: #fff;
+  font-size: 20px;
+  font: weight 300px;
+  transition: all.42s ease;
+}
+/*nav ends here*/
+.shopping-cart {
+  text-align: center;
+
+  color: #ffffff;
+  margin-top: 143px;
+  margin-bottom: 63px;
+}
+.shopping-cart h2 {
+  font-size: 36px;
+  font-weight: 700;
+}
+.shopping-col-left {
+  width: 60%;
+  padding-right: 55px;
+  padding-left: 55px;
+  padding-top: 55px;
+  padding-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+
+  background: #fff;
+  justify-content: start;
+}
+.shopping-col-right {
+  width: 40%;
+  background: #fff;
+  display: flex;
+
+  background: #fff;
+
+  flex-direction: column;
+  padding: 55px;
+}
+
+.shopping-row {
+  display: flex;
+  margin-left: 9%;
+  margin-right: 9%;
+  align-items: start;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 63px;
+}
+
+.games-divs {
+  display: flex;
+  padding-bottom: 30px;
+  justify-content: space-between;
+}
+.games-divs img {
+  width: 180px;
+  height: 221px;
+  display: block;
+}
+.games-info {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+.games-info-heading {
+  display: flex;
+  justify-content: space-between;
+}
+.games-info-heading h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+  padding-bottom: 3px;
+}
+.games-info-heading .price {
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+}
+
+.games-info p {
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+  padding-bottom: 10px;
+}
+.games-info h5 {
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+  padding-bottom: 15px;
+}
+.plus-minus {
+  display: flex;
+  width: 100px;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+.plus-minus i {
+  font-size: 23px;
+}
+.plus-minus p {
+  font-size: 16;
+  font-weight: 500;
+}
+
+.save-later {
+  display: flex;
+  justify-content: left;
+}
+.save-later p {
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+  padding-right: 50px;
+}
+.shopping-col-right h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+  text-align: center;
+}
+.subtotal {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 35px;
+  padding-bottom: 15px;
+}
+.subtotal h5 {
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+}
+.tax {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 25px;
+}
+.tax p {
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+}
+hr.solid {
+  border-top: 3px solid black;
+}
+.cart-total {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.cart-total h5 {
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+}
+.proceed-checkout {
+  background: #ec0000;
+  font-size: 18px;
+  font-weight: 500;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: #fff;
+  border: none;
+  margin-bottom: 23px;
+  text-align: center;
+  width: 100%;
+  cursor: pointer;
+}
+
+.continue-shopping {
+  background: #ec0000;
+  font-size: 18px;
+  font-weight: 500;
+  width: 100%;
+  color: #fff;
+  border: none;
+  text-align: center;
+  padding-top: 12px;
+  padding: 12px;
+  cursor: pointer;
+}
+
+/*footer starts here*/
+.footer-container {
+  width: 100%;
+  color: #ffffff;
+  background-color: #ec0000;
+  height: 262px;
+
+  align-content: center;
+}
+.footer-insidebox {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 9%;
+  padding-right: 9%;
+}
+.footer-heading {
+  display: flex;
+  flex-direction: column;
+}
+.footer-heading h3 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.footer-heading a {
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.footer-heading p {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.section-4 h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+#footer-email {
+  width: 200px;
+  height: 40px;
+  border: none;
+  background-color: #fff;
+  color: black;
+  font-size: 12px;
+  font-weight: 500;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+#footer-email-btn {
+  width: 80px;
+  height: 40px;
+  border: none;
+  background-color: black;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+}
+.social-div {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.social-media a {
+  height: 32px;
+  width: 32px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-right: 20px;
+  text-align: center;
+
+  line-height: 32px;
+  color: #ec0000;
+}
+.social-media a i {
+  transition: all 0.3s linear;
+}
+.social-media a:hover i {
+  transform: scale(1.2);
+}
+/*footer ends here*/
+@media only screen and (max-width: 1200px) {
+  header {
+    padding: 20px 7%;
+  }
+  .shopping-cart {
+    text-align: center;
+
+    color: #ffffff;
+    margin-top: 143px;
+    margin-bottom: 63px;
+  }
+  .shopping-cart h2 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .shopping-col-left {
+    width: 60%;
+    padding-right: 35px;
+    padding-left: 35px;
+    padding-top: 35px;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+
+    background: #fff;
+    justify-content: start;
+  }
+  .shopping-col-right {
+    width: 40%;
+    background: #fff;
+    display: flex;
+
+    background: #fff;
+
+    flex-direction: column;
+    padding: 35px;
+  }
+  .shopping-row {
+    display: flex;
+    margin-left: 9%;
+    margin-right: 9%;
+    align-items: start;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 63px;
+  }
+
+  .games-divs {
+    display: flex;
+    padding-bottom: 30px;
+    justify-content: space-between;
+  }
+  .games-divs img {
+    width: 180px;
+    height: 200px;
+    display: block;
+    padding-right: 15px;
+  }
+  .games-info {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+  .games-info-heading {
+    display: flex;
+    justify-content: space-between;
+  }
+  .games-info-heading h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    padding-bottom: 5px;
+  }
+  .games-info-heading .price {
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+  }
+  .games-info p {
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    padding-bottom: 5px;
+  }
+  .games-info h5 {
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    padding-bottom: 15px;
+  }
+  .plus-minus {
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+    padding-bottom: 10px;
+  }
+  .plus-minus i {
+    font-size: 23px;
+  }
+  .plus-minus p {
+    font-size: 16;
+    font-weight: 500;
+  }
+
+  .save-later {
+    display: flex;
+    justify-content: left;
+  }
+  .save-later p {
+    font-size: 12px;
+    font-weight: 500;
+    color: black;
+    padding-right: 50px;
+  }
+  .shopping-col-right h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+  }
+  .subtotal {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-bottom: 15px;
+  }
+  .subtotal h5 {
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+  }
+  .tax {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 25px;
+  }
+  .tax p {
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+  }
+  hr.solid {
+    border-top: 3px solid black;
+  }
+  .cart-total {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .cart-total h5 {
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+  }
+  .proceed-checkout {
+    background: #ec0000;
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: #fff;
+    border: none;
+    margin-bottom: 23px;
+    text-align: center;
+  }
+  .continue-shopping {
+    background: #ec0000;
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: #fff;
+    border: none;
+    text-align: center;
+  }
+
+  /*footer starts here*/
+  .footer-insidebox {
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+
+  .footer-heading h3 {
+    font-size: 17px;
+    font-weight: 500;
+  }
+  .footer-heading a {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .footer-heading p {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  /*footer ends here*/
+}
+@media only screen and (max-width: 768px) {
+  header {
+    width: 100%;
+    height: 65px;
+    position: fixed;
+    justify-content: space-between;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    right: 0;
+    background: #ec0000;
+    display: flex;
+    align-items: center;
+    padding: 20px 7%;
+  }
+  .logo img {
+    max-width: 70px;
+    height: auto;
+  }
+  ul li {
+    display: inline-block;
+
+    margin: 0 16px;
+  }
+
+  ul li a {
+    position: relative;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 3px 0;
+  }
+
+  .nav-icon i {
+    margin-left: 20px;
+    color: #fff;
+    font-size: 16px;
+    font: weight 300px;
+    transition: all.42s ease;
+  }
+  .shopping-cart {
+    text-align: center;
+
+    color: #ffffff;
+    margin-top: 100px;
+    margin-bottom: 45px;
+  }
+  .shopping-cart h2 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .shopping-col-left {
+    width: 100%;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+
+    background: #fff;
+    justify-content: start;
+  }
+  .shopping-col-right {
+    width: 100%;
+    background: #fff;
+    display: flex;
+
+    background: #fff;
+
+    flex-direction: column;
+    padding: 40px;
+  }
+  .shopping-row {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: start;
+    justify-content: center;
+    gap: 45px;
+    margin-bottom: 45px;
+    flex-direction: column;
+  }
+
+  .games-divs {
+    display: flex;
+    padding-bottom: 30px;
+    justify-content: space-between;
+  }
+  .games-divs img {
+    width: 180;
+    height: auto;
+    display: block;
+  }
+  .games-info {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+  .games-info-heading {
+    display: flex;
+    justify-content: space-between;
+  }
+  .games-info-heading h4 {
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    padding-bottom: 5px;
+  }
+  .games-info-heading .price {
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+  }
+  .games-info p {
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+    padding-bottom: 5px;
+  }
+  .games-info h5 {
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    padding-bottom: 10px;
+  }
+  .plus-minus {
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+    padding-bottom: 10px;
+  }
+  .plus-minus i {
+    font-size: 20px;
+  }
+  .plus-minus p {
+    font-size: 16;
+    font-weight: 500;
+  }
+
+  .save-later {
+    display: flex;
+    justify-content: left;
+  }
+  .save-later p {
+    font-size: 12px;
+    font-weight: 500;
+    color: black;
+    padding-right: 50px;
+  }
+  .shopping-col-right h4 {
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+  }
+  .subtotal {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-bottom: 15px;
+  }
+  .subtotal h5 {
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+  }
+  .tax {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 25px;
+  }
+  .tax p {
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+  }
+  hr.solid {
+    border-top: 2px solid black;
+  }
+  .cart-total {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .cart-total h5 {
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+  }
+  .proceed-checkout {
+    background: #ec0000;
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: #fff;
+    border: none;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .continue-shopping {
+    background: #ec0000;
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: #fff;
+    border: none;
+    text-align: center;
+  }
+
+  /*footer starts here*/
+  .footer-container {
+    width: 100%;
+    height: 225px;
+  }
+  .footer-insidebox {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+  .footer-heading {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-heading h3 {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 17px;
+  }
+  .footer-heading a {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .footer-heading p {
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .section-4 h3 {
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  #footer-email {
+    width: 150px;
+    height: 35px;
+    border: none;
+    background-color: #fff;
+    color: black;
+    font-size: 10px;
+    font-weight: 500;
+  }
+  #footer-email-btn {
+    width: 60px;
+    height: 35px;
+    font-size: 9px;
+    font-weight: 500;
+  }
+  .social-media a {
+    height: 28px;
+    width: 28px;
+    margin-right: 20px;
+    text-align: center;
+  }
+  /*footer ends here*/
+}
+@media only screen and (max-width: 400px) {
+  header {
+    height: 55px;
+    width: 100%;
+    padding: 6%;
+  }
+  .logo img {
+    max-width: 55px;
+    height: auto;
+  }
+  header label {
+    display: block;
+  }
+
+  ul {
+    height: 50vh;
+    width: 50%;
+    background: #05112b;
+    position: fixed;
+    top: 55px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  #check:checked ~ ul {
+    left: 0;
+  }
+  ul li {
+    margin: 30px 0;
+    display: block;
+    line-height: 30px;
+  }
+  ul li a {
+    color: #fff;
+    font-size: 14px;
+
+    font-weight: 500;
+    transition: all 0.42s ease;
+  }
+
+  .nav-icon i {
+    margin-left: 15px;
+    color: #fff;
+    font-size: 18px;
+    font: weight 300px;
+    transition: all.42s ease;
+  }
+  /*nav ends here*/
+  .shopping-cart {
+    text-align: center;
+
+    color: #ffffff;
+    margin-top: 85 px;
+    margin-bottom: 30 px;
+  }
+  .shopping-cart h2 {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .shopping-col-left {
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+
+    background: #fff;
+    justify-content: start;
+  }
+  .shopping-col-right {
+    width: 100%;
+    background: #fff;
+    display: flex;
+
+    background: #fff;
+
+    flex-direction: column;
+    padding: 20px;
+  }
+  .shopping-row {
+    display: flex;
+    margin-left: 6%;
+    margin-right: 6%;
+    align-items: start;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 45px;
+    flex-direction: column;
+  }
+
+  .games-divs {
+    display: flex;
+    padding-bottom: 20px;
+    justify-content: space-between;
+  }
+  .games-divs img {
+    width: 100px;
+    height: auto;
+    display: block;
+    padding-right: 0px;
+  }
+  .games-info {
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+  }
+  .games-info-heading {
+    display: flex;
+    justify-content: space-between;
+  }
+  .games-info-heading h4 {
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    padding-bottom: 3px;
+  }
+  .games-info-heading .price {
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+  }
+  .games-info p {
+    font-size: 12px;
+    font-weight: 400;
+    color: black;
+    padding-bottom: 5px;
+  }
+  .games-info h5 {
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+    padding-bottom: 7px;
+  }
+  .plus-minus {
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+    padding-bottom: 5px;
+  }
+  .plus-minus i {
+    font-size: 15px;
+  }
+  .plus-minus p {
+    font-size: 16;
+    font-weight: 500;
+  }
+
+  .save-later {
+    display: flex;
+    justify-content: left;
+  }
+  .save-later p {
+    font-size: 10px;
+    font-weight: 500;
+    color: black;
+    padding-right: 20px;
+  }
+
+  .shopping-col-right h4 {
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+  }
+  .subtotal {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-bottom: 15px;
+  }
+  .subtotal h5 {
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+  }
+  .tax {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 25px;
+  }
+  .tax p {
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+  }
+  hr.solid {
+    border-top: 2px solid black;
+  }
+  .cart-total {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .cart-total h5 {
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+  }
+  .proceed-checkout {
+    background: #ec0000;
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: #fff;
+    border: none;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .continue-shopping {
+    background: #ec0000;
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: #fff;
+    border: none;
+    text-align: center;
+  }
+  /*footer starts here*/
+  .footer-container {
+    width: 100%;
+  }
+  .footer-insidebox {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    background-color: #ec0000;
+  }
+  .footer-heading {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-heading h3 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .footer-heading a {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .footer-heading p {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .section-4 h3 {
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 10px;
+  }
+  #footer-email {
+    width: 150px;
+    height: 35px;
+    border: none;
+    background-color: #fff;
+    color: black;
+    font-size: 10px;
+    font-weight: 500;
+  }
+  #footer-email-btn {
+    width: 60px;
+    height: 35px;
+    font-size: 9px;
+    font-weight: 500;
+  }
+  .email-form {
+    align-items: center;
+  }
+
+  .social-div a {
+    height: 28px;
+    width: 28px;
+    color: #ec0000;
+    margin: 0;
+  }
+  .social-div {
+    justify-content: space-evenly;
+  }
+  /*footer ends here*/
+}
