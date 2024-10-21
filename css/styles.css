@@ -136,7 +136,7 @@ ul li a {
   flex-direction: column;
 }
 
-.textbox h3 {
+.textbox h2 {
   font-size: 20px;
   font: 700;
 }
@@ -479,7 +479,7 @@ ul li a {
     flex-direction: column;
   }
 
-  .textbox h3 {
+  .textbox h2 {
     font-size: 14px;
     font: 700;
   }
@@ -703,7 +703,7 @@ ul li a {
     flex-direction: column;
   }
 
-  .textbox h3 {
+  .textbox h2 {
     font-size: 16px;
     font: 700;
   }
