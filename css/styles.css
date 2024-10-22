@@ -427,7 +427,7 @@ ul li a {
   .main-home {
     width: 100%;
     height: 55vh;
-    background: url("/images/header-image.jpg");
+    background: url("../images/header-image.jpg");
     background-position: center;
     background-size: cover;
     align-content: center;
@@ -470,7 +470,7 @@ ul li a {
   }
 
   .box1 {
-    background-image: url("/images/spacewar.jpg");
+    background-image: url("../images/spacewar.jpg");
     grid-area: box1;
     margin-right: 5px;
   }
@@ -501,7 +501,7 @@ ul li a {
 
     margin-bottom: 45px;
     color: #fff;
-    background: url("/images/racing-car-image.jpg");
+    background: url("../images/racing-car-image.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -694,7 +694,7 @@ ul li a {
     background-repeat: no-repeat;
   }
   .box1 {
-    background-image: url("/images/spacewar.jpg");
+    background-image: url("../images/spacewar.jpg");
     grid-area: box1;
     margin-right: 5px;
   }
@@ -731,7 +731,7 @@ ul li a {
   }
 
   .box3 {
-    background-image: url("/images/forge-legend.jpg");
+    background-image: url("../images/forge-legend.jpg");
     grid-area: box3;
   }
   .box4 {
@@ -744,12 +744,12 @@ ul li a {
   }
 
   .box5 {
-    background-image: url("/images/pingpong.jpg");
+    background-image: url("../images/pingpong.jpg");
     grid-area: box5;
   }
 
   .box6 {
-    background-image: url("/images/boxer.jpg");
+    background-image: url("../images/boxer.jpg");
     grid-area: box6;
     margin-left: 5px;
   }
@@ -760,7 +760,7 @@ ul li a {
     margin-top: 30px;
     margin-bottom: 30px;
     color: #fff;
-    background: url("/images/racing-car-image.jpg");
+    background: url("../images/racing-car-image.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
