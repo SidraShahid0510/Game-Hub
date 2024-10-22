@@ -82,7 +82,7 @@ ul li a {
   text-align: center;
   width: 600px;
 }
-.login-form h2 {
+.login-form h1 {
   color: #ffffff;
   font-size: 36px;
   font-weight: 700;
@@ -113,13 +113,12 @@ ul li a {
   font-size: 16px;
   font-weight: 400;
 }
+
 .forgot {
   color: white;
   font-size: 16px;
   font-weight: 400;
   text-align: left;
-  text-decoration: underline;
-  text-underline-offset: 6px;
 }
 .remember label {
   display: flex;
@@ -276,7 +275,7 @@ ul li a {
   header {
     padding: 20px 7%;
   }
-  .login-form h2 {
+  .login-form h1 {
     font-size: 30px;
   }
   /*footer starts here*/
@@ -351,7 +350,7 @@ ul li a {
     text-align: center;
     width: 400px;
   }
-  .login-form h2 {
+  .login-form h1 {
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 15px;
@@ -540,7 +539,7 @@ ul li a {
     text-align: center;
     width: 300px;
   }
-  .login-form h2 {
+  .login-form h1 {
     font-size: 18px;
     font-weight: 700;
     margin-bottom: 13px;

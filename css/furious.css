@@ -88,14 +88,14 @@ ul li a {
 .product-row .right-col {
   padding-left: 50px;
 }
-.right-col h2 {
+.right-col h1 {
   font-size: 30px;
   font-weight: 700;
   color: #fff;
   padding-top: 0;
   padding-bottom: 5px;
 }
-.right-col h4 {
+.right-col h2 {
   font-size: 20px;
   font-weight: 400;
   color: #fff;
@@ -147,7 +147,7 @@ ul li a {
 .games-page-link {
   text-decoration: underline;
   text-underline-offset: 6px;
-  color: #ec0000;
+  color: #fff;
   font-size: 18px;
   font-weight: 500;
 }
@@ -293,14 +293,14 @@ ul li a {
   .product-row .right-col {
     padding-left: 50px;
   }
-  .right-col h2 {
+  .right-col h1 {
     font-size: 30px;
     font-weight: 700;
     color: #fff;
     padding-top: 0;
     padding-bottom: 5px;
   }
-  .right-col h4 {
+  .right-col h2 {
     font-size: 20px;
     font-weight: 400;
     color: #fff;
@@ -427,14 +427,14 @@ ul li a {
   .product-row .right-col {
     padding-left: 0px;
   }
-  .right-col h2 {
+  .right-col h1 {
     font-size: 20px;
     font-weight: 700;
     color: #fff;
     padding-top: 0;
     padding-bottom: 5px;
   }
-  .right-col h4 {
+  .right-col h2 {
     font-size: 15px;
     font-weight: 400;
     color: #fff;
@@ -481,7 +481,7 @@ ul li a {
   .games-page-link {
     text-decoration: underline;
     text-underline-offset: 6px;
-    color: #ec0000;
+    color: #fff;
     font-size: 14px;
     font-weight: 500;
   }
@@ -634,14 +634,14 @@ ul li a {
   .product-row .right-col {
     padding-left: 0px;
   }
-  .right-col h2 {
+  .right-col h1 {
     font-size: 18px;
     font-weight: 700;
     color: #fff;
     padding-top: 20px;
     padding-bottom: 5px;
   }
-  .right-col h4 {
+  .right-col h2 {
     font-size: 14px;
     font-weight: 400;
     color: #fff;
@@ -688,7 +688,7 @@ ul li a {
   .games-page-link {
     text-decoration: underline;
     text-underline-offset: 6px;
-    color: #ec0000;
+    color: #fff;
     font-size: 14px;
     font-weight: 500;
   }
