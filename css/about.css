@@ -76,7 +76,7 @@ ul li a {
   margin-left: 9%;
   margin-right: 9%;
 }
-.about-heading h2 {
+.about-heading h1 {
   font-size: 36px;
   font-weight: 700;
   color: #fff;
@@ -102,7 +102,7 @@ ul li a {
   background-repeat: no-repeat;
 }
 .aboutbox1 {
-  background-image: url("/images/about-image-1.jpg");
+  background-image: url("../images/about-image-1.jpg");
   grid-area: aboutbox1;
 }
 .aboutbox2 {
@@ -118,7 +118,7 @@ ul li a {
   padding-left: 30px;
   padding-right: 30px;
 }
-.about-inner h3 {
+.about-inner h2 {
   font-size: 20px;
   font-weight: 700;
 }
@@ -129,7 +129,7 @@ ul li a {
   line-height: 1.8;
 }
 .aboutbox4 {
-  background-image: url("/images/about-image-2.jpg");
+  background-image: url("../images/about-image-2.jpg");
   grid-area: aboutbox4;
 }
 .aboutbox3 {
@@ -227,7 +227,7 @@ ul li a {
   header {
     padding: 20px 7%;
   }
-  .about-heading h2 {
+  .about-heading h1 {
     font-size: 30px;
   }
   .about-container {
@@ -303,7 +303,7 @@ ul li a {
     margin-left: 7%;
     margin-right: 7%;
   }
-  .about-heading h2 {
+  .about-heading h1 {
     font-size: 20px;
   }
 
@@ -327,7 +327,7 @@ ul li a {
     padding-left: 40px;
     padding-right: 40px;
   }
-  .about-inner h3 {
+  .about-inner h2 {
     font-size: 16px;
     font-weight: 700;
   }
@@ -453,7 +453,7 @@ ul li a {
     margin-left: 6%;
     margin-right: 6%;
   }
-  .about-heading h2 {
+  .about-heading h1 {
     font-size: 18px;
   }
 
@@ -477,7 +477,7 @@ ul li a {
     padding-left: 20px;
     padding-right: 20px;
   }
-  .about-inner h3 {
+  .about-inner h2 {
     font-size: 16px;
     font-weight: 700;
   }

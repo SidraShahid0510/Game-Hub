@@ -174,16 +174,16 @@ ul li a {
   background-repeat: no-repeat;
 }
 .image-card1 {
-  background: url("/images/pingpong.jpg");
+  background: url("../images/pingpong.jpg");
 }
 .image-card2 {
-  background: url("/images/racing.jpg");
+  background: url("../images/racing.jpg");
 }
 .image-card3 {
-  background: url("/images/cyberpunk.jpg");
+  background: url("../images/cyberpunk.jpg");
 }
 .image-card4 {
-  background: url("/images/forge-legend.jpg");
+  background: url("../images/forge-legend.jpg");
 }
 
 /*footer starts here*/

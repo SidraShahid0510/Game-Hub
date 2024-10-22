@@ -81,7 +81,7 @@ ul li a {
   align-items: center;
   margin-bottom: 63px;
 }
-.purchase-heading h2 {
+.purchase-heading h1 {
   font-size: 26px;
   font-weight: 600;
   color: #fff;
@@ -103,7 +103,7 @@ ul li a {
   padding-left: 75px;
   padding-right: 75px;
 }
-.order-detail h4 {
+.order-detail h2 {
   font-size: 20px;
   font-weight: 600;
   text-align: center;
@@ -225,7 +225,7 @@ ul li a {
     align-items: center;
     margin-bottom: 63px;
   }
-  .purchase-heading h2 {
+  .purchase-heading h1 {
     font-size: 24px;
     font-weight: 600;
     color: #fff;
@@ -247,7 +247,7 @@ ul li a {
     padding-left: 75px;
     padding-right: 75px;
   }
-  .order-detail h4 {
+  .order-detail h2 {
     font-size: 20px;
     font-weight: 600;
     text-align: center;
@@ -329,7 +329,7 @@ ul li a {
     align-items: center;
     margin-bottom: 45px;
   }
-  .purchase-heading h2 {
+  .purchase-heading h1 {
     font-size: 20px;
     font-weight: 700;
     color: #fff;
@@ -348,7 +348,7 @@ ul li a {
     background: #fff;
     padding: 30px;
   }
-  .order-detail h4 {
+  .order-detail h2 {
     font-size: 16px;
     font-weight: 600;
     text-align: center;
@@ -487,7 +487,7 @@ ul li a {
     align-items: center;
     margin-bottom: 45px;
   }
-  .purchase-heading h2 {
+  .purchase-heading h1 {
     font-size: 18px;
     font-weight: 600;
     color: #fff;
@@ -506,7 +506,7 @@ ul li a {
     background: #fff;
     padding: 20px;
   }
-  .order-detail h4 {
+  .order-detail h2 {
     font-size: 14px;
     font-weight: 600;
     text-align: center;

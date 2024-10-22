@@ -23,12 +23,12 @@
   </head>
   <body>
     <header>
-    
-      <input type="checkbox" name="" id="check">
-      <label for="check"><i class="fa-solid fa-bars"></i></label>  
-      <a href="index.html" class="logo"><img src="images/logo.png" alt="game-hub-logo"
-        /></a>
-        
+      <input type="checkbox" name="" id="check" aria-label="menubar"/>
+      <label for="check" aria-label="check"><i class="fa-solid fa-bars"></i></label>
+      <a href="index.html" class="logo"
+        ><img src="images/logo.png" alt="game-hub-logo"
+      /></a>
+
       <ul>
         <li><a href="index.html">HOME</a></li>
         <li><a href="games.html">GAMES</a></li>
@@ -36,15 +36,16 @@
         <li><a href="contact.html">CONTACT US</a></li>
       </ul>
       <div class="nav-icon">
-        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
-        <a href="sign-in.html"><i class="fa-regular fa-user"></i></a>
-        <a href="shopping-cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
-  
+        <a href="#" aria-label="link to search"><i class="fa-solid fa-magnifying-glass"></i></a>
+        <a href="sign-in.html" aria-label="sign-in link" ><i class="fa-regular fa-user"></i></a>
+        <a href="shopping-cart.html" aria-label="link to shopping cart"
+          ><i class="fa-solid fa-cart-shopping"></i
+        ></a>
       </div>
     </header>
     <div class="shipping-info-container">
       <form action="#" class="shipping-form">
-        <h2>SHIPPING</h2>
+        <h1>SHIPPING</h1>
         <div class="shipping-input-box">
           <label for="Email-adress">Email</label>
           <input type="text" placeholder="sarajahan@gmail.com" id="Email-adress" />
@@ -83,7 +84,10 @@
         </div>
         <button class="save">Save and Continue</button>
       </form>
-      <div class="payment-heading"><h2>PAYMENT</h2></div>
+      <div class="payment-heading">
+        <h1>PAYMENT</h1>
+      </div>
+
       <form action="#" class="payment-form">
         <div class="debit-card">
           <label for="debit-card" >
@@ -118,7 +122,7 @@
         </div>
         <div class="vipps">
           <label for="vipps"> <input type="radio" id="vipps"/>Vipps </label>
-          <img src="icons/vipps-rgb-orange-pos.svg" />
+          <img src="icons/vipps-rgb-orange-pos.svg" alt="vipps image" />
         </div>
       </form>
       <div class="total-amount">
@@ -129,55 +133,55 @@
     </div>
     
     <footer class="footer-container">
-        <div class="footer-insidebox">
-          <div class="footer-heading section-1">
-            <h3>Company</h3>
-            <a href="index.html">Home</a>
-            <a href="about.html">About us</a>
-            <a href="contact.html">Contact us</a>
-            <p>Online Services</p>
-          </div>
-          <div class="footer-heading section-2">
-            <h3>For Buyers</h3>
-            <p>Buyers Support</p>
-            <p>How to buy</p>
-            <p>Stay Safe</p>          
-            <p>Sitemap</p>
-          </div>
-          <div class="footer-heading section-3">
-            <h3>For Sellers</h3>
-            <p>Sellers Support</p>
-            <p>How to sell</p>
-            <p>Import via API</p>          
-            <p>Business center</p>
-          </div>
-          <div class="section-4">
-            
-            <div class="email-form">
-              <h3>Newsletter</h3>
-              <input type="email" placeholder="Enter email address here" 
-              id="footer-email"><input type="submit" value="Subscribe" id="footer-email-btn">            
-            </div>
-  
-            <div class="social-media">
-              <h3>Follow us</h3>
-              <div class="social-div">     
-                 <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
-                <a href="https://www.twitter.com/"><i class="fa-brands fa-twitter"></i></a></div>
-             
-            
-              
-  
-            </div>      
-  
-          </div>
-             
-  
+      <div class="footer-insidebox">
+        <div class="footer-heading section-1">
+          <h3>Company</h3>
+          <a href="index.html">Home</a>
+          <a href="about.html">About us</a>
+          <a href="contact.html">Contact us</a>
+          <p>Online Services</p>
+        </div>
+        <div class="footer-heading section-2">
+          <h3>For Buyers</h3>
+          <p>Buyers Support</p>
+          <p>How to buy</p>
+          <p>Stay Safe</p>          
+          <p>Sitemap</p>
+        </div>
+        <div class="footer-heading section-3">
+          <h3>For Sellers</h3>
+          <p>Sellers Support</p>
+          <p>How to sell</p>
+          <p>Import via API</p>          
+          <p>Business center</p>
+        </div>
+        <div class="section-4">
           
+          <div class="email-form">
+            <h3>Newsletter</h3>
+            <input type="email" placeholder="Enter email address here" aria-label="enter your email to Subscribe"
+            id="footer-email"><input type="submit" value="Subscribe" id="footer-email-btn">            
+          </div>
+
+          <div class="social-media">
+            <h3>Follow us</h3>
+            <div class="social-div">     
+               <a href="https://www.facebook.com/" aria-label="link to facebook"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="https://www.instagram.com/" aria-label="link to instagram"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.youtube.com/" aria-label="link to youtube"><i class="fa-brands fa-youtube"></i></a>
+              <a href="https://www.twitter.com/" aria-label="link to twitter"><i class="fa-brands fa-twitter"></i></a></div>
+           
+          
+            
+
+          </div>      
+
         </div>
-        </div>
-      </footer>
+           
+
+        
+      </div>
+      </div>
+    </footer>
   </body>
 </html>

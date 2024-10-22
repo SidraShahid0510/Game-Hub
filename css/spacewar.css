@@ -174,16 +174,16 @@ ul li a {
   background-repeat: no-repeat;
 }
 .image-card1 {
-  background: url(/images/pingpong.jpg);
+  background: url("../images/pingpong.jpg");
 }
 .image-card2 {
-  background: url(/images/cyberpunk.jpg);
+  background: url("../images/cyberpunk.jpg");
 }
 .image-card3 {
-  background: url(/images/assassin.jpg);
+  background: url("../images/assassin.jpg");
 }
 .image-card4 {
-  background: url(/images/furious.jpg);
+  background: url("../images/furious.jpg");
 }
 
 /*footer starts here*/
