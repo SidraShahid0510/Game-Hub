@@ -134,6 +134,8 @@ ul li a {
 .textbox {
   display: flex;
   flex-direction: column;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .textbox h2 {
@@ -474,11 +476,13 @@ ul li a {
     grid-area: box1;
     margin-right: 5px;
   }
+
   .textbox {
     display: flex;
     flex-direction: column;
+    padding-left: 15px;
+    padding-right: 15px;
   }
-
   .textbox h2 {
     font-size: 14px;
     font: 700;
@@ -698,9 +702,12 @@ ul li a {
     grid-area: box1;
     margin-right: 5px;
   }
+
   .textbox {
     display: flex;
     flex-direction: column;
+    padding-left: 40px;
+    padding-right: 40px;
   }
 
   .textbox h2 {
