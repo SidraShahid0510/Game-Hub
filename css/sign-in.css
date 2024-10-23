@@ -144,11 +144,13 @@ ul li a {
   padding-top: 6px;
   margin-bottom: 30px;
 }
-
+.sign-in-btns {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+}
 .sign-in-btn {
   background: #ec0000;
-  color: #fff;
-  width: 100%;
   text-align: center;
   font-size: 16px;
   font-weight: 500;
@@ -157,35 +159,35 @@ ul li a {
   border: none;
   cursor: pointer;
   margin-bottom: 30px;
+  color: #ffffff;
 }
 .or {
-  color: #ffffff;
+  color: #fff;
   font-size: 16px;
   font-weight: 500;
   margin-bottom: 30px;
 }
 .create-account {
-  width: 100%;
-  background: white;
+  background: #ffffff;
+  color: black;
   text-align: center;
   font-size: 16px;
   font-weight: 500;
   padding-top: 12px;
   padding-bottom: 12px;
-  color: black;
   border: none;
   cursor: pointer;
   margin-bottom: 30px;
 }
+
 .guest-checkout {
-  width: 100%;
-  background: white;
+  background: #ffffff;
+  color: black;
   text-align: center;
   font-size: 16px;
   font-weight: 500;
   padding-top: 12px;
   padding-bottom: 12px;
-  color: black;
   border: none;
   cursor: pointer;
 }
@@ -377,7 +379,7 @@ ul li a {
   }
   .input-box input::placeholder {
     color: black;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
   }
   .forgot {
@@ -399,30 +401,28 @@ ul li a {
     margin-bottom: 20px;
     line-height: 1.9;
   }
+  .sign-in-btns {
+    width: 400px;
+  }
   .sign-in-btn {
     font-size: 14px;
     font-weight: 500;
-    padding-top: 12px;
-    padding-bottom: 12px;
-
     margin-bottom: 20px;
   }
   .or {
     font-size: 14px;
-    font-weight: 500;
-    margin-bottom: 20px;
   }
   .create-account {
     font-size: 14px;
     font-weight: 500;
-    padding-top: 12px;
-    padding-bottom: 12px;
-
     margin-bottom: 20px;
   }
+
   .guest-checkout {
     font-size: 14px;
     font-weight: 500;
+    padding-top: 12px;
+    padding-bottom: 12px;
   }
   /*footer starts here*/
   .footer-container {
@@ -568,7 +568,7 @@ ul li a {
   }
   .input-box input::placeholder {
     color: black;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
   }
   .forgot {
@@ -591,6 +591,9 @@ ul li a {
     margin-bottom: 20px;
     line-height: 1.8;
   }
+  .sign-in-btns {
+    width: 300px;
+  }
   .sign-in-btn {
     font-size: 14px;
     font-weight: 500;
@@ -604,15 +607,11 @@ ul li a {
   .create-account {
     font-size: 14px;
     font-weight: 500;
-    padding-top: 12px;
-    padding-bottom: 12px;
     margin-bottom: 20px;
   }
+
   .guest-checkout {
     font-size: 14px;
-    font-weight: 500;
-    padding-top: 12px;
-    padding-bottom: 12px;
   }
   /*footer starts here*/
   .footer-container {

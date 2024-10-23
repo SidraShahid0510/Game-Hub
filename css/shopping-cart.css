@@ -222,31 +222,16 @@ hr.solid {
   font-weight: 600;
   color: black;
 }
-.proceed-checkout {
+.shopping-btns {
   background: #ec0000;
+  color: #ffffff;
   font-size: 18px;
   font-weight: 500;
+  text-align: center;
+  cursor: pointer;
   padding-top: 12px;
   padding-bottom: 12px;
-  color: #fff;
-  border: none;
   margin-bottom: 23px;
-  text-align: center;
-  width: 100%;
-  cursor: pointer;
-}
-
-.continue-shopping {
-  background: #ec0000;
-  font-size: 18px;
-  font-weight: 500;
-  width: 100%;
-  color: #fff;
-  border: none;
-  text-align: center;
-  padding-top: 12px;
-  padding: 12px;
-  cursor: pointer;
 }
 
 /*footer starts here*/
@@ -488,27 +473,6 @@ hr.solid {
     font-weight: 600;
     color: black;
   }
-  .proceed-checkout {
-    background: #ec0000;
-    font-size: 18px;
-    font-weight: 500;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    color: #fff;
-    border: none;
-    margin-bottom: 23px;
-    text-align: center;
-  }
-  .continue-shopping {
-    background: #ec0000;
-    font-size: 18px;
-    font-weight: 500;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    color: #fff;
-    border: none;
-    text-align: center;
-  }
 
   /*footer starts here*/
   .footer-insidebox {
@@ -721,26 +685,10 @@ hr.solid {
     font-weight: 600;
     color: black;
   }
-  .proceed-checkout {
-    background: #ec0000;
+  .shopping-btns {
     font-size: 16px;
     font-weight: 500;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    color: #fff;
-    border: none;
     margin-bottom: 20px;
-    text-align: center;
-  }
-  .continue-shopping {
-    background: #ec0000;
-    font-size: 16px;
-    font-weight: 500;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    color: #fff;
-    border: none;
-    text-align: center;
   }
 
   /*footer starts here*/
@@ -1005,27 +953,11 @@ hr.solid {
     font-weight: 600;
     color: black;
   }
-  .proceed-checkout {
-    background: #ec0000;
+  .shopping-btns {
     font-size: 14px;
-    font-weight: 500;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    color: #fff;
-    border: none;
     margin-bottom: 20px;
-    text-align: center;
   }
-  .continue-shopping {
-    background: #ec0000;
-    font-size: 14px;
-    font-weight: 500;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    color: #fff;
-    border: none;
-    text-align: center;
-  }
+
   /*footer starts here*/
   .footer-container {
     width: 100%;
