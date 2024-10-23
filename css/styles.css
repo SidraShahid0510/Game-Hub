@@ -76,7 +76,9 @@ ul li a {
   background: url("../images/header-image.jpg");
   background-position: center;
   background-size: cover;
-  align-content: center;
+  align-items: center;
+  justify-content: left;
+  display: flex;
   background-repeat: no-repeat;
   margin-top: 80px;
 }
@@ -421,11 +423,6 @@ ul li a {
   .main-home {
     width: 100%;
     height: 55vh;
-    background: url("../images/header-image.jpg");
-    background-position: center;
-    background-size: cover;
-    align-content: center;
-    background-repeat: no-repeat;
     margin-top: 65px;
   }
   .main-text h1 {
@@ -632,8 +629,6 @@ ul li a {
   .main-home {
     width: 100%;
     height: 40vh;
-    background-size: cover;
-
     margin-top: 55px;
   }
   .main-text {
