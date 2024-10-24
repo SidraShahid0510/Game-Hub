@@ -379,6 +379,255 @@ ul li a {
   }
   /*footer ends here*/
 }
+@media only screen and (max-width: 1024px) {
+  header {
+    height: 70px;
+    padding: 20px 7%;
+  }
+  .logo img {
+    max-width: 70px;
+    height: auto;
+  }
+  ul li {
+    display: inline-block;
+
+    margin: 0 16px;
+  }
+
+  ul li a {
+    position: relative;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 3px 0;
+  }
+  .nav-icon i {
+    margin-left: 20px;
+    color: #fff;
+    font-size: 16px;
+    font: weight 300px;
+    transition: all.42s ease;
+  }
+  /*nav ends here*/
+
+  .shipping-info-container {
+    margin-top: 115px;
+  }
+  .shipping-form {
+    text-align: center;
+    width: 475px;
+  }
+  .shipping-form h1 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  .shipping-input-box {
+    margin: 15px 0;
+    position: relative;
+  }
+  .shipping-input-box input {
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .shipping-input-box label {
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 7px;
+  }
+  .shipping-small-part {
+    display: flex;
+    gap: 20px;
+  }
+  .shipping-small-part .shipping-input-box {
+    width: 100%;
+    gap: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .save {
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 15px;
+    width: 200px;
+    justify-content: center;
+  }
+
+  .payment-form {
+    width: 475px;
+    margin-bottom: 30px;
+  }
+  .payment-heading h1 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #fff;
+  }
+  .debit-card {
+    padding-top: 30px;
+  }
+  .debit-card label {
+    display: flex;
+    gap: 17px;
+    cursor: pointer;
+    color: black;
+    padding-left: 20px;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .payment-input-box {
+    width: 100%;
+    margin: 10px 0;
+    position: relative;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .payment-input-box input {
+    width: 100%;
+    padding: 12px 12px 12px 12px;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .payment-input-box label {
+    display: flex;
+    color: #000000;
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 7px;
+  }
+  .payment-small-part {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    gap: 20px;
+  }
+  .payment-small-part .payment-input-box {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .visa-icons {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding-left: 50px;
+    margin: 10px;
+  }
+  .visa-icons .image1 {
+    width: 40px;
+    height: 13px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .visa-icons .image2 {
+    width: 30px;
+    height: 30px;
+  }
+  .vipps label {
+    display: flex;
+    gap: 17px;
+    cursor: pointer;
+    color: black;
+    padding-left: 20px;
+  }
+  .vipps input {
+    accent-color: black;
+  }
+  .vipps {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 50px;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+    padding-bottom: 30px;
+  }
+  .vipps img {
+    width: 70px;
+    height: auto;
+  }
+  .total-amount {
+    width: 457px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-bottom: 30px;
+  }
+  .place-order {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background: #ec0000;
+    font-size: 15px;
+    font-weight: 500;
+    color: #ffffff;
+    border: none;
+    width: 200px;
+    margin-bottom: 45px;
+  }
+  /*footer starts here*/
+  .footer-container {
+    width: 100%;
+    height: 225 px;
+  }
+  .footer-insidebox {
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+
+  .footer-heading h3 {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 17px;
+  }
+  .footer-heading a {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-weight: 400;
+  }
+  .footer-heading p {
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-weight: 400;
+  }
+  .section-4 h3 {
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  #footer-email {
+    width: 150px;
+    height: 35px;
+    border: none;
+    background-color: #fff;
+    color: black;
+    font-size: 10px;
+    font-weight: 500;
+  }
+  #footer-email-btn {
+    width: 60px;
+    height: 35px;
+    font-size: 9px;
+    font-weight: 500;
+  }
+  .social-media a {
+    height: 28px;
+    width: 28px;
+    margin-right: 20px;
+    text-align: center;
+  }
+  /*footer ends here*/
+}
 @media only screen and (max-width: 768px) {
   header {
     width: 100%;

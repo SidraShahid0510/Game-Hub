@@ -127,7 +127,10 @@ ul li a {
   gap: 12px;
   cursor: pointer;
   color: #fff;
+  font-size: 16px;
+  font-weight: 400;
 }
+
 .remember input {
   accent-color: white;
   cursor: pointer;
@@ -299,6 +302,168 @@ ul li a {
   .footer-heading p {
     font-size: 14px;
     font-weight: 400;
+  }
+  /*footer ends here*/
+}
+@media only screen and (max-width: 1024px) {
+  header {
+    height: 70px;
+    padding: 20px 7%;
+  }
+  .logo img {
+    max-width: 70px;
+    height: auto;
+  }
+  ul li {
+    display: inline-block;
+
+    margin: 0 16px;
+  }
+
+  ul li a {
+    position: relative;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 3px 0;
+  }
+  .nav-icon i {
+    margin-left: 20px;
+    color: #fff;
+    font-size: 16px;
+    font: weight 300px;
+    transition: all.42s ease;
+  }
+  /*nav ends here*/
+  .sign-in-container {
+    margin-top: 115px;
+    margin-bottom: 45px;
+  }
+  .login-form {
+    width: 475px;
+  }
+  .login-form h1 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  .login-form .login-text {
+    font-size: 15px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  .sign-in-btns {
+    text-align: center;
+    width: 600px;
+  }
+  .input-box input {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .input-box input::placeholder {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .forgot {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .remember {
+    margin-top: 18px;
+  }
+  .remember label {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .remember-undersection {
+    color: white;
+    font-size: 11px;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 26px;
+    padding-top: 6px;
+    margin-bottom: 30px;
+  }
+  .sign-in-btns {
+    width: 475px;
+    display: flex;
+    flex-direction: column;
+  }
+  .sign-in-btn {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 25px;
+  }
+  .or {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 25px;
+  }
+  .create-account {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 25px;
+  }
+
+  .guest-checkout {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  /*footer starts here*/
+  .footer-container {
+    width: 100%;
+    height: 225 px;
+  }
+  .footer-insidebox {
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+
+  .footer-heading h3 {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 17px;
+  }
+  .footer-heading a {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-weight: 400;
+  }
+  .footer-heading p {
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-weight: 400;
+  }
+  .section-4 h3 {
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  #footer-email {
+    width: 150px;
+    height: 35px;
+    border: none;
+    background-color: #fff;
+    color: black;
+    font-size: 10px;
+    font-weight: 500;
+  }
+  #footer-email-btn {
+    width: 60px;
+    height: 35px;
+    font-size: 9px;
+    font-weight: 500;
+  }
+  .social-media a {
+    height: 28px;
+    width: 28px;
+    margin-right: 20px;
+    text-align: center;
   }
   /*footer ends here*/
 }

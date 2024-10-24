@@ -227,6 +227,116 @@ ul li a {
   }
   /*footer ends here*/
 }
+@media only screen and (max-width: 1024px) {
+  header {
+    height: 70px;
+    padding: 20px 7%;
+  }
+  .logo img {
+    max-width: 70px;
+    height: auto;
+  }
+  ul li {
+    display: inline-block;
+
+    margin: 0 16px;
+  }
+
+  ul li a {
+    position: relative;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 3px 0;
+  }
+  .nav-icon i {
+    margin-left: 20px;
+    color: #fff;
+    font-size: 16px;
+    font: weight 300px;
+    transition: all.42s ease;
+  }
+  /*nav ends here*/
+
+  .games-header {
+    margin-top: 70px;
+  }
+  .games-header img {
+    width: 100%;
+    height: 55vh;
+  }
+  .games-grid-container {
+    margin-top: 45px;
+    margin-bottom: 30px;
+    margin-left: 7%;
+    margin-right: 7%;
+    grid-column-gap: 28px;
+  }
+  .games-box h1 {
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .games-box h2 {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  /*footer starts here*/
+  .footer-container {
+    width: 100%;
+    height: 225 px;
+  }
+  .footer-insidebox {
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+
+  .footer-heading h3 {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 17px;
+  }
+  .footer-heading a {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-weight: 400;
+  }
+  .footer-heading p {
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-weight: 400;
+  }
+  .section-4 h3 {
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  #footer-email {
+    width: 150px;
+    height: 35px;
+    border: none;
+    background-color: #fff;
+    color: black;
+    font-size: 10px;
+    font-weight: 500;
+  }
+  #footer-email-btn {
+    width: 60px;
+    height: 35px;
+    font-size: 9px;
+    font-weight: 500;
+  }
+  .social-media a {
+    height: 28px;
+    width: 28px;
+    margin-right: 20px;
+    text-align: center;
+  }
+  /*footer ends here*/
+}
 @media only screen and (max-width: 768px) {
   header {
     width: 100%;
