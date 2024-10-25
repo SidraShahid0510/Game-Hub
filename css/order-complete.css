@@ -140,6 +140,7 @@ ul li a {
   justify-content: space-between;
   padding-left: 9%;
   padding-right: 9%;
+  padding-top: 3%;
 }
 .footer-heading {
   display: flex;
@@ -265,6 +266,7 @@ ul li a {
   .footer-insidebox {
     padding-left: 7%;
     padding-right: 7%;
+    padding-top: 4%;
   }
 
   .footer-heading h3 {

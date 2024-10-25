@@ -189,14 +189,14 @@ ul li a {
   color: #ffffff;
   background-color: #ec0000;
   height: 262px;
-
-  align-content: center;
+  align-items: center;
 }
 .footer-insidebox {
   display: flex;
   justify-content: space-between;
   padding-left: 9%;
   padding-right: 9%;
+  padding-top: 3%;
 }
 .footer-heading {
   display: flex;
@@ -345,6 +345,7 @@ ul li a {
   .footer-insidebox {
     padding-left: 7%;
     padding-right: 7%;
+    padding-top: 4%;
   }
 
   .footer-heading h3 {
@@ -469,6 +470,7 @@ ul li a {
   .footer-insidebox {
     padding-left: 7%;
     padding-right: 7%;
+    padding-top: 5%;
   }
 
   .footer-heading h3 {
@@ -655,6 +657,7 @@ ul li a {
     justify-content: space-between;
     padding-left: 7%;
     padding-right: 7%;
+    padding-top: 4%;
   }
   .footer-heading {
     display: flex;
@@ -764,6 +767,7 @@ ul li a {
     justify-content: space-between;
     padding-left: 7%;
     padding-right: 7%;
+    padding-top: 4%;
   }
   .footer-heading {
     display: flex;
