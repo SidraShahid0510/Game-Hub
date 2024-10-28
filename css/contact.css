@@ -129,7 +129,6 @@ ul li a {
   color: #ffffff;
   background-color: #ec0000;
   height: 262px;
-
   align-content: center;
 }
 .footer-insidebox {
@@ -625,6 +624,7 @@ ul li a {
     justify-content: space-between;
     padding-left: 7%;
     padding-right: 7%;
+    padding-top: 30px;
   }
   .footer-heading {
     display: flex;

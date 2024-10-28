@@ -1053,6 +1053,7 @@ hr.solid {
     justify-content: space-between;
     padding-left: 7%;
     padding-right: 7%;
+    padding-top: 30px;
   }
   .footer-heading {
     display: flex;
